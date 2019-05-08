@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: subscriptiond
-        image: quay.io/repository/brice/metrics-demo:v4-subscription-service  
+        image: quay.io/brice/metrics-demo:v4-subscription-service
         command:
         - ./subscription
         - --port=3000
