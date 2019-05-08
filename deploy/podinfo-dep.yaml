@@ -18,10 +18,10 @@ spec:
     spec:
       containers:
       - name: podinfod
-        image: quay.io/stefanprodan/podinfo:1.2.1
+        image: quay.io/stefanprodan/podinfo:1.3.0
         command:
-            - ./podinfo
-            - --port=9898
+        - ./podinfo
+        - --port=9898
         ports:
         - containerPort: 9898
         readinessProbe:
